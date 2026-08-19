@@ -66,8 +66,8 @@ app.patch("/sample/:id", (req, res) => {
     )
 })
 
-const port=8000;
-app.listen(port,()=>{
+const port = process.env.PORT || 8000;
+
+app.listen(port, "0.0.0.0", () => {
     console.log(`Server is Running...${port}`);
-    
-})
+});
