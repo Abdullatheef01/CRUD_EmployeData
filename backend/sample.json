@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Abdu",
+    "email": "abdul@gmail.com",
+    "age": 20
+  },
+  {
+    "id": 2,
+    "name": "Arun",
+    "email": "arun@gmail.com",
+    "age": 21
+  },
+  {
+    "id": 3,
+    "name": "Rahul",
+    "email": "rahul@gmail.com",
+    "age": 22
+  },
+  {
+    "id": 4,
+    "name": "Karthik",
+    "email": "karthik@gmail.com",
+    "age": 23
+  },
+  {
+    "id": 5,
+    "name": "Vijay",
+    "email": "vijay@gmail.com",
+    "age": 24
+  },
+  {
+    "id": 6,
+    "name": "Surya",
+    "email": "surya@gmail.com",
+    "age": 25
+  },
+  {
+    "id": 7,
+    "name": "Ajay",
+    "email": "ajay@gmail.com",
+    "age": 22
+  },
+  {
+    "id": 8,
+    "name": "Praveen",
+    "email": "praveen@gmail.com",
+    "age": 26
+  },
+  {
+    "id": 9,
+    "name": "Hari",
+    "email": "hari@gmail.com",
+    "age": 21
+  },
+  {
+    "id": 10,
+    "name": "Sathish",
+    "email": "sathish@gmail.com",
+    "age": 27
+  }
+]
