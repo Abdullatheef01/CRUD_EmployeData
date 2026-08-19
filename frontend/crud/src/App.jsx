@@ -10,7 +10,7 @@ function App() {
     age:"",
   })
   const getuser= async()=>{
-        const res=await fetch("http://localhost:8000/sample")
+        const res=await fetch("https://crud-employedata.onrender.com/sample")
         const data=await res.json()
         datastate(data)
         searchstate(data)
@@ -29,7 +29,7 @@ function App() {
   const delfunc=async(id)=>{
   const condition=window.confirm(`Are you want to Delete this Item: ${id}`)
   if(condition){
-   await axios.delete(`http://localhost:8000/sample/${id}`).then((res)=>{
+   await axios.delete(`https://crud-employedata.onrender.com/sample/${id}`).then((res)=>{
         datastate(res.data)
         searchstate(res.data)
     })
@@ -49,21 +49,18 @@ function App() {
  
 const submitform=async()=>{
   if (details.id){
- await axios.patch(`http://localhost:8000/sample/ ${details.id}`,details)
-  .then((res)=>{
-    console.log(res);
-    
-  })
-  }
+ await axios.patch(`https://crud-employedata.onrender.com/sample/${details.id}`,details)}
+  
   else{
-     await axios.post("http://localhost:8000/sample/",details)
+     await axios.post("https://crud-employedata.onrender.com/sample",details)
   .then((res)=>{
     console.log(res);
     
   })
   }
- addstate(false)
-   detailsstate({name:"",email:"",age:""})
+  await getuser()
+  addstate(false)
+  detailsstate({name:"",email:"",age:""})
 }
 
 // update function
