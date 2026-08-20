@@ -209,4 +209,11 @@ This project helped demonstrate practical implementation of:
 * Edit employee functionality
 * Environment variable configuration
 
+## Screenshot
+<img width="1897" height="907" alt="image" src="https://github.com/user-attachments/assets/e738be9d-3af3-4552-9f37-924afacd348b" />
+
+## Project Live 
+Link to view the Project: https://crud-employe-data.vercel.app/
+
+## Demo
 
