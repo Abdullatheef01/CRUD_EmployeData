@@ -1,17 +1,16 @@
 .container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-top: 100px;
-  gap: 50px;
+  gap: 34px;
   
  
 }
 
 .container h1{
   font-family: Arial, Helvetica, sans-serif;
-
+  text-align: center;
 }
 .searchbar{
   display:flex;
@@ -55,6 +54,7 @@ padding: 10px;
 
 
 }
+
 .edit{
   border: none;
   outline: none;
@@ -150,3 +150,20 @@ table tr:hover{
  background-color:cornflowerblue;
 border-radius: 5px;
 } */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.table {
+  width: 100%;
+  overflow-x: auto;  
+}

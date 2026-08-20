@@ -89,16 +89,24 @@ return (
         </thead>
         <tbody>
          {
-         search && search.map((user,index)=>(
-               <tr key={index}>
-            <td>{user.id}</td>
-            <td>{user.name}</td>
-            <td>{user.email}</td>
-            <td>{user.age}</td>
-            <td><button className='edit' onClick={()=>handleupdate(user)}>Edit</button></td>
-            <td><button className='delete'onClick={()=>delfunc(user.id)}>Delete</button></td>
-          </tr>
-          ))
+        //  search && search.map((user,index)=>(
+        //        <tr key={index}>
+        //     <td>{user.id}</td>
+        //     <td>{user.name}</td>
+        //     <td>{user.email}</td>
+        //     <td>{user.age}</td>
+        //     <td><button className='edit' onClick={()=>handleupdate(user)}>Edit</button></td>
+        //     <td><button className='delete'onClick={()=>delfunc(user.id)}>Delete</button></td>
+        //   </tr>
+        //   ))
+        <tr>
+          <td>12</td>
+          <td>kadhar</td>
+          <td>example.com</td>
+          <td>34</td>
+          <td><button className='delete'onClick={()=>delfunc(user.id)}>Delete</button></td>
+          <td><button className='delete'onClick={()=>delfunc(user.id)}>Delete</button></td>
+        </tr>
          }
          
        
