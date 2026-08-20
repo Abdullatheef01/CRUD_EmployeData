@@ -140,16 +140,7 @@ table tr:hover{
   padding-left: 10px;
   overflow:scroll;
 }
-/* .details button{
-  width: 100px;
-  padding: 10px 15px;
-  font-weight: 600;
-  
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- border: none;
- background-color:cornflowerblue;
-border-radius: 5px;
-} */
+
 
 html, body {
   margin: 0;
@@ -162,8 +153,14 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
+@media (max-width: 600px) {
 
 .table {
   width: 100%;
   overflow-x: auto;  
+}
+.searchbar button{
+font-size: 11px;
+width: 150px;
+}
 }
