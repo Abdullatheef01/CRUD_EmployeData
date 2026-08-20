@@ -4,9 +4,7 @@ const cors=require("cors")
 const fs =require("fs")
 const app=express()
 app.use(cors({
-     origin:[ "http://localhost:5173",
-     "https://crud-employe-data.vercel.app/"],
-
+     origin:" https://crud-employe-data.vercel.app/",
      methods: ["GET", "POST","PATCH","DELETE"]
 }))
 app.use(express.json())
