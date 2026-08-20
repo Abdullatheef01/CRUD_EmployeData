@@ -116,7 +116,7 @@ Request body:
 ### Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Abdullatheef01/CRUD_EmployeData
 cd Employee-Data-Management
 ```
 
@@ -173,7 +173,7 @@ The frontend is deployed using Vercel and the backend is deployed using Render.
 Frontend:
 
 ```text
-YOUR_VERCEL_URL
+https://crud-employe-data.vercel.app/
 ```
 
 Backend:
